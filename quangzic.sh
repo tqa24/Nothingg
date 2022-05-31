@@ -351,9 +351,9 @@ Install_xrayr() {
 # Bước khởi tạo
 clear
 while true; do
-  echo "  -----XrayR AZZ-----"
-  echo "  TQA24 (DORAVPN)"
-  echo "  TQA24"
+  echo "  -----XrayR DORAVPN-----"
+  echo "  CUSTOM BY DORAVPN"
+  echo "  DORAVPN"
   echo "  Vui lòng nhập một số để Thực Hiện Câu Lệnh:"
   for ((i = 1; i <= ${#operation[@]}; i++)); do
     hint="${operation[$i - 1]}"
