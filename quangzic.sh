@@ -351,9 +351,9 @@ Install_xrayr() {
 # Bước khởi tạo
 clear
 while true; do
-  echo "  -----XrayR DORAVPN-----"
-  echo "  CUSTOM BY DORAVPN"
-  echo "  DORAVPN"
+  echo "  -----XrayR AZZ-----"
+  echo "  VŨ VĂN THÁI (AZZ)"
+  echo "  VŨ VĂN THÁI"
   echo "  Vui lòng nhập một số để Thực Hiện Câu Lệnh:"
   for ((i = 1; i <= ${#operation[@]}; i++)); do
     hint="${operation[$i - 1]}"
