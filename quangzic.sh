@@ -105,15 +105,15 @@ error_detect_depends() {
 
 # Cài đặt trước cài đặt
 pre_install_docker_compose() {
-  echo -e "  [1] datamienphi.pw"
-  echo -e "  [2] datamienphi.pw"
+  echo -e "  [1] xn--ss-8ja.vn"
+  echo -e "  [2] xn--ss-8ja.vn"
   read -p "  Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="https://datamienphi.pw/"
+    api_host="https://xn--ss-8ja.vn/"
   elif [ "$api_host" == "2" ]; then
-    api_host="https://datamienphi.pw/"
+    api_host="https://xn--ss-8ja.vn/"
   else 
-    api_host="https://datamienphi.pw/"
+    api_host="https://xn--ss-8ja.vn/"
   fi
 
   echo "--------------------------------"
@@ -181,8 +181,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://datamienphi.pw/"
-      ApiKey: "datamienphidotpw"
+      ApiHost: "https://xn--ss-8ja.vn/"
+      ApiKey: "Zicfreesingaporee"
       NodeID: 5
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
