@@ -364,7 +364,8 @@ while true; do
   case "${selected}" in
   1 | 2 | 3 | 4 | 5 | 6 | 7)
     echo
-    echo "  Bắt Đầu : ${operation[${selected} - echo
+    echo "  Bắt Đầu : ${operation[${selected} - 
+echo
     ${operation[${selected} - 1]}_xrayr
     break
     ;;
