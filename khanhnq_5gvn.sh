@@ -364,4 +364,12 @@ while true; do
   case "${selected}" in
   1 | 2 | 3 | 4 | 5 | 6 | 7)
     echo
-    echo "  Bắt Đầu : ${operation[${selected} - 1]}"
+    echo "  Bắt Đầu : ${operation[${selected} - echo
+    ${operation[${selected} - 1]}_xrayr
+    break
+    ;;
+  *)
+    echo -e "  [${red}Error${plain}] Vui lòng nhập số chính xác [1-6]"
+    ;;
+  esac
+done
